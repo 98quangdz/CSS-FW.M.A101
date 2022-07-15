@@ -1,16 +1,74 @@
+#nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 60px;
+}
+#nav .item text {
+    font-weight: 40px;
+}
 #slider {
     position: relative;
-    margin-top: 46px;
-    padding-top: 50%;
-    background: url('./resources/images/bg-masthead.jpg') top center / cover no-repeat;
+}
+#slider img {
+    height: 600px;
+    width: 100%;
+}
+
+#slider .slider-box {
+    position:absolute;
+    top: 50%;
+    left: 30%;
+    right: 30%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+#slider1 {
+    position: relative;
+}
+#slider .slider-box  h3 {
+    color: white;
+    margin-bottom: 30px;
+}
+#slider1 img {
+    height: 300px;
+    width: 100%;
+}
+#slider1 .slider-box1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.g-2, .gx-2 {
+    --bs-gutter-x: 6.5rem !important;
+}
+.form-control {
+    width: 144% !important;
+}
+#slider1 .slider-box1 h4 {
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 20px;
 }
 .card {
     border: none !important;
+}
+.card-group>.card {
+    border: none;
+    margin-bottom: 0.75rem;
+}
+
+#footer {
+    position: relative;
+    margin: 2.2rem 15%
 }
 .footer-icon {
     display: flex;
 
 }
+
 .col-haf {
     width: 50%;
 }
@@ -19,4 +77,63 @@
 }
 .icon-footer {
     font-size: 15px;
+}
+.perfect-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body {
+    padding: 1rem 5rem !important;
+}
+.img-icon {
+    width: auto;
+    height: 80px;
+}
+.img-person {
+    border-radius: 50%;
+    height: 170px;
+    width: auto;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    width: 40% !important;
+}
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.row1-text {
+    margin:30px 0 ;
+}
+.slider-footer {
+    height: 600px;
+    width: 100%;
+}
+#footer .nav {
+    flex-wrap: nowrap;
+    font-size: 0.9rem;
+}
+#footer .row2-footer {
+    margin-left: 16px;
+}
+#footer .icon-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    margin: 0 9rem;
+    align-items: center;
+}
+body #footer .icon-footer .fa-brands {
+    color: #0d6efd !important;
+    margin: 0 10px;
+}
+#footer .row .row-icon {
+    display: flex;
+    margin: auto;
 }
