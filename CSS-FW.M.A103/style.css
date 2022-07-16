@@ -1,0 +1,28 @@
+#navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url('./resources/images/bg-masthead.jpg') top center / cover no-repeat;
+}
+#Service {
+    background-color: #00809e;
+}
+#Download {
+    position: relative;
+    padding-top: 50%;
+    background: url('./resources/images/bg-callout.jpg') top center / cover no-repeat;
+}
+#Portfolio {
+    background-color: #ffffff;
+}
+#impossible {
+    background-color: #00809e;
+}
+#map {
+    position: relative;
+    padding-top: 50%;
+    background: url('./resources/images/map.PNG') top center / cover no-repeat;  
+}
+#footer {
+
+}
