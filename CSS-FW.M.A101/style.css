@@ -137,3 +137,7 @@ body #footer .icon-footer .fa-brands {
     display: flex;
     margin: auto;
 }
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
